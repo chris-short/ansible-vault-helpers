@@ -1,7 +1,9 @@
 # ansible-vault-helpers
 Bash scripts for quick, easy use of Ansible Vault features
 
-Scripts assume your Ansible Vault password is in a file (outside of any public repo and only readable/writable by you) in your home directory, specifically, ~/.vault
+Scripts assume your Ansible Vault password is in a file (outside of any public repo and only readable/writable by you) in your home directory, specifically, ~/.vault.
+
+Scripts are intended to be placed somewhere in your path for convenience.
 
 More on Ansible Vault at http://docs.ansible.com/ansible/playbooks\_vault.html
 
