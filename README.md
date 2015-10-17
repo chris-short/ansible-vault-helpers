@@ -3,7 +3,7 @@ Bash scripts for quick, easy use of Ansible Vault features
 
 Scripts assume your Ansible Vault password is in a file (outside of any public repo and only readable/writable by you) in your home directory, specifically, ~/.vault.
 
-Scripts are intended to be placed somewhere in your path for convenience.
+Scripts are intended to be somewhere in your path for convenience. Adding this repo to your path is highly recommended.
 
 More on Ansible Vault at http://docs.ansible.com/ansible/playbooks\_vault.html
 
