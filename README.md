@@ -5,7 +5,7 @@ Scripts assume your Ansible Vault password is in a file (outside of any public r
 
 Scripts are intended to be somewhere in your path for convenience. Adding this repo to your path is highly recommended.
 
-More on Ansible Vault at http://docs.ansible.com/ansible/playbooks\_vault.html
+More on Ansible Vault at http://docs.ansible.com/ansible/playbooks_vault.html
 
 avcreate: Creates Ansible Vault files
 
