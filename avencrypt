@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+VAULT=$(which ansible-vault)
+
+$VAULT encrypt --.vault-password-file ~/.vault $1

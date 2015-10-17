@@ -1,2 +1,16 @@
 # ansible-vault-helpers
 Bash scripts for quick, easy use of Ansible Vault features
+
+Scripts assume your Ansible Vault password is in a file (outside of any public repo and only readable/writable by you) in your home directory, specifically, ~/.vault
+
+More on Ansible Vault at http://docs.ansible.com/ansible/playbooks\_vault.html
+
+avcreate: Creates Ansible Vault files
+
+avdecrypt: Removes the encryption from Ansible Vault files (converts file to plaintext)
+
+avedit: Decrypts file for use in your text editor (vim for Ansible Vaults)
+
+avencrypt: Encrypts file using Ansible Vault
+
+avview: Read-only view of an Ansible Vault file (less for Ansible Vaults)
